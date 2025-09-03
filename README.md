@@ -52,13 +52,12 @@ This project used machine learning models to identify which team and player stat
 
 The regression model showed that offensive performance — especially the engineered feature team_offensive_score — was the most predictive of total points scored. Supporting variables like assists, three-pointers, and free throws highlighted the importance of efficient ball movement and perimeter shooting.
 
-The classification model, on the other hand, revealed that defensive rebounds were the strongest predictor of victory, underscoring the importance of controlling the game defensively. Additional features, such as steals and assists, also played a role, while contextual variables like home-court advantage were found to be less impactful.
-
-## 📊 Data Source
-
-Raw data used in this project was obtained from [Basketball Reference](https://github.com/NocturneBear/NBA-Data-2010-2024). All rights and ownership of the original data belong to their respective owners. This dataset is used strictly for educational and non-commercial purposes.
-
+The classification model, on the other hand, revealed that defensive rebounds were the strongest predictor of victory, underscoring the importance of controlling the game defensively. Additional features, such as steals and assists, also played a role, while contextual variables like home-court advantage were found to be less impactful. 
 
 Across both models, team-based statistics consistently outperformed individual metrics, reinforcing the idea that basketball outcomes are driven by collective effort rather than star power alone. The feature engineering process played a key role in preventing overfitting and improving model robustness.
 
 These findings provide strong evidence that coordinated team play, offensive execution, and defensive control are the primary statistical drivers of NBA success.
+
+## 📊 Data Source
+
+Raw data used in this project was obtained from [Basketball Reference](https://github.com/NocturneBear/NBA-Data-2010-2024). All rights and ownership of the original data belong to their respective owners. This dataset is used strictly for educational and non-commercial purposes.
